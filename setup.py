@@ -87,5 +87,5 @@ setup(
     scripts=['scripts/fedora-checksums', 'scripts/validate-checksums',
              'scripts/repo-cp'],
     include_package_data=True,
-    package_data={'eulfedora': ['eulfedora/templates/eulfedora/*.html']},
+    package_data={'eulfedora': ['templates/eulfedora/*.html']},
 )
